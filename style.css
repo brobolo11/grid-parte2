@@ -1,0 +1,132 @@
+.container{
+    border: solid 8px rgb(198, 164, 83);
+    height: 70vh;
+    width: 45vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-areas: 
+    "blue1  blue1   blue1   white1  white1  white1  white1  white1  white1  yellow1 yellow1 yellow1 yellow1 yellow1 yellow1 white3  white3  white3  white3  white3"
+    "blue1  blue1   blue1   white1  white1  white1  white1  white1  white1  yellow1 yellow1 yellow1 yellow1 yellow1 yellow1 white3  white3  white3  white3  white3"
+    "blue1  blue1   blue1   white1  white1  white1  white1  white1  white1  white2  white2  white2  white2  white2  white2  white3  white3  white3  white3  white3"
+    "blue1  blue1   blue1   white1  white1  white1  white1  white1  white1  white2  white2  white2  white2  white2  white2  white3  white3  white3  white3  white3"
+    "blue1  blue1   blue1   white1  white1  white1  white1  white1  white1  white2  white2  white2  white2  white2  white2  white3  white3  white3  white3  white3"
+    "white4 white4  white4  red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    white3  white3  white3  white3  white3"
+    "white4 white4  white4  red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    white3  white3  white3  white3  white3"
+    "white4 white4  white4  red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    white3  white3  white3  white3  white3"
+    "white4 white4  white4  red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    red1    white3  white3  white3  white3  white3"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  blue2   blue2   blue2   blue2   blue2"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "white5 white5  white5  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white6  white7  white7  white7  white7  white7"
+    "blue3  blue3   blue3   white8  white8  white8  white8  white8  white8  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "blue3  blue3   blue3   white8  white8  white8  white8  white8  white8  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "blue3  blue3   blue3   white8  white8  white8  white8  white8  white8  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2"
+    "white9 white9  white9  white9  white9  white9  white9  white9  white9  yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2 yellow2";
+}
+
+.blue1,
+.blue2,
+.blue3{
+    background-color: blue;
+}
+
+.red1{
+    background-color: red;
+}
+
+.yellow1,
+.yellow2{
+    background-color: yellow;
+}
+
+.item{
+    border: solid black 3px;
+}
+
+.blue1 {
+    grid-area: blue1;
+    border-top: none;
+    border-left: none;
+}
+
+.blue2 {
+    grid-area: blue2;
+    border-right: none;
+}
+
+.blue3 {
+    grid-area: blue3;
+    border-left: none;
+}
+
+.white1 {
+    grid-area: white1;
+    border-top: none;
+}
+
+.white2 {
+    grid-area: white2;
+}
+
+.white3 {
+    grid-area: white3;
+    border-top: none;
+    border-right: none;
+}
+
+.white4 {
+    grid-area: white4;
+    border-left: none;
+}
+
+.white5 {
+    grid-area: white5;
+    border-left: none;
+}
+
+.white6 {
+    grid-area: white6;
+}
+
+.white7 {
+    grid-area: white7;
+    border-right: none;
+}
+
+.white8 {
+    grid-area: white8;
+}
+
+.white9 {
+    grid-area: white9;
+    border-left: none;
+    border-bottom: none;
+}
+
+.yellow1 {
+    grid-area: yellow1;
+    border-top: none;
+}
+
+.yellow2{
+    grid-area: yellow2;
+    border-right: none;
+    border-bottom: none;
+}
+
+.red1{
+    grid-area: red1;
+}
